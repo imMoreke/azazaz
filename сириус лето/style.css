@@ -1,0 +1,19 @@
+.button {
+    font-family: Inter, Inter Fallback;
+    color: white;
+    background-color: black;
+    width: 10%;
+    height: 5%;
+    font-size: 90%;
+    border-radius: 3px; 
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 20;
+    transition: 0.4s ease;
+}
+
+.button:hover {
+    background-color: rgb(94, 94, 94);
+    transition: 0.4s ease;
+}
